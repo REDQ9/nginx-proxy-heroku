@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cat << EOF > /etc/nginx/nginx.conf
-worker_processes  4;
+worker_processes  8;
 events {
     worker_connections  1024;
 }
@@ -9,7 +9,7 @@ http {
     include       mime.types;
     default_type  application/octet-stream;
     sendfile        on;
-    keepalive_timeout  300;
+    keepalive_timeout  999;
     server {
       listen "$PORT";
       server_name  127.0.0.1;
