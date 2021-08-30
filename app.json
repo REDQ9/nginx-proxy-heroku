@@ -1,14 +1,14 @@
 {
-    "name": "nginx-proxy",
-    "description": "Deploy nginx-proxy on Heroku.",
-    "keywords": ["nginx-proxy"],
+    "name": "bmdpbngtcHJveHk=",
+    "description": "RGVwbG95IG5naW54LXByb3h5IG9uIEhlcm9rdS4=",
+    "keywords": ["bmdpbngtcHJveHk="],
     "env": {
         "TARGET": {
-            "description": "proxy target https://domain:port",
-            "value": "https://baidu.com:443"
+            "description": "cHJveHkgdGFyZ2V0IGh0dHBzOi8vZG9tYWluOnBvcnQ=",
+            "value": "https://RED:443"
         }
     },
-    "website": "",
-    "repository": "https://github.com/FunnyWolf/nginx-proxy-heroku",
+    "website": "github.com",
+    "repository": "https://github.com/REDQ9/nginx-proxy-heroku",
     "stack": "container"
 }
